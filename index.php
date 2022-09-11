@@ -9,8 +9,14 @@
 </head>
 <body>
 <?php
-    # comment
-    echo "Hello World!"
+# comment
+echo "Hello World! <BR>"; // comment
+echo("ABCD"); // we can use parenthesis
+echo '<BR>Today is Friday, we\'re going to the zoo.'; // escaping special characters
+
+include 'heading.html'; // produces a warning without stopping the script
+require 'heading.html'; // produces a fatal error and stops the script
+include_once 'heading.html'; // doesn't display as file only allowed once
 ?>
 </body>
 </html>
