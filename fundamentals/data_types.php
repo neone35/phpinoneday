@@ -15,7 +15,7 @@ echo substr($str7, 2, 1) . '<BR>';
 # string to time
 $nextMonday = "next Monday";
 $unixTime = strtotime($nextMonday);
-echo strtotime("now") . " " . strtotime("20 Dec 2100") . '<BR>';
+echo strtotime("now") . " data_types.php" . strtotime("20 Dec 2100") . '<BR>';
 echo date("c", $unixTime) . '<BR>';
 echo date("d-M-y", $unixTime) . "<BR>";
 date_default_timezone_set('Europe/Vilnius');
