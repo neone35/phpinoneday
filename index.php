@@ -47,6 +47,12 @@ echo '<a href="fundamentals/type_declaration.php" target="_blank">type_declarati
 echo "<h1>Superglobals</h1>";
 ## Form handling
 echo '<a href="super_globals/form_handling.php" target="_blank">form_handling.php<br></a>';
+## Sessions
+echo '<a href="super_globals/session.php" target="_blank">session.php<br></a>';
+echo '<a href="super_globals/session2.php" target="_blank">session2.php<br></a>';
+## Cookies
+echo '<a href="super_globals/cookie.php" target="_blank">cookie.php<br></a>';
+echo '<a href="super_globals/cookie2.php" target="_blank">cookie2.php<br></a>';
 ?>
 
 

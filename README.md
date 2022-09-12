@@ -4,7 +4,7 @@ Preparing for part-time PHP developer position, where I'd
 use PHP framework [symfony](https://symfony.com/). Preparation for
 symfony is stored in [this](https://www.example.com) repository.
 
-## Topics
+## [Topics](index.php)
 ### Fundamentals
 1. [include and require](fundamentals/include_require.php)
 2. [redirecting](fundamentals/redirect.php)
@@ -15,7 +15,9 @@ symfony is stored in [this](https://www.example.com) repository.
 7. [functions](fundamentals/functions.php)
 8. [type declaration](fundamentals/type_declaration.php)
 ### Superglobals
-1. [form handling](super_globals/form_handling.php)
+1. [form handling](super_globals/form_handling.php) and $_GET, $_POST, filtering 
+2. [sessions](super_globals/session.php) [sessions2](super_globals/session2.php) and $_SESSION 
+3. [cookies](super_globals/cookie.php) [cookies2](super_globals/cookie2.php) and $_COOKIE
 
 ---
 **Followed this book**
