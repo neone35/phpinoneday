@@ -18,7 +18,7 @@
 
 <?php
 ### fundamentals
-echo "<h1>Fundamentals</h1>";
+echo "<h2>Fundamentals</h2>";
 ## comment
 echo "Hello World! <BR>"; // comment
 echo("ABCD"); // we can use parenthesis
@@ -44,7 +44,7 @@ echo '<a href="fundamentals/functions.php" target="_blank">functions.php<br></a>
 ## Type declaration
 echo '<a href="fundamentals/type_declaration.php" target="_blank">type_declaration.php<br></a>';
 
-echo "<h1>Superglobals</h1>";
+echo "<h2>Superglobals</h2>";
 ## Form handling
 echo '<a href="super_globals/form_handling.php" target="_blank">form_handling.php<br></a>';
 ## Sessions
@@ -53,6 +53,9 @@ echo '<a href="super_globals/session2.php" target="_blank">session2.php<br></a>'
 ## Cookies
 echo '<a href="super_globals/cookie.php" target="_blank">cookie.php<br></a>';
 echo '<a href="super_globals/cookie2.php" target="_blank">cookie2.php<br></a>';
+
+echo "<h2>Object-oriented programming</h2>";
+echo '<a href="oop/Movie.php" target="_blank">Movie.php<br></a>';
 ?>
 
 
