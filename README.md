@@ -22,6 +22,11 @@ symfony is stored in [this](https://www.example.com) repository.
 1. [class](oop/Movie.php) with access modifiers, getters & setters
 2. [subclass](oop/AwardWinningMovie.php) with inheritance & overriding
 3. [objects](oop/awarded_movie.php) of class & subclass
+### Database interaction
+1. [prepared statements](db_interact/prepared_statements.php) with connection & 5 stages
+2. [create, update, delete](db_interact/sql_cud.php) operations
+3. [read](db_interact/sql_read.php) operation
+
 
 ---
 **Followed this book**

@@ -58,6 +58,11 @@ echo "<h2>Object-oriented programming</h2>";
 echo '<a href="oop/Movie.php" target="_blank">Movie.php class<br></a>';
 echo '<a href="oop/AwardWinningMovie.php" target="_blank">Movie.php subclass<br></a>';
 echo '<a href="oop/awarded_movie.php" target="_blank">objects of class & subclass<br></a>';
+
+echo "<h2>Interacting with database</h2>";
+echo '<a href="db_interact/prepared_statements.php" target="_blank">prepared_statements.php<br></a>';
+echo '<a href="db_interact/sql_cud.php" target="_blank">sql_cud.php<br></a>';
+echo '<a href="db_interact/sql_read.php" target="_blank">sql_read.php<br></a>';
 ?>
 
 
