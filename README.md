@@ -19,7 +19,9 @@ symfony is stored in [this](https://www.example.com) repository.
 2. [sessions](super_globals/session.php) [sessions2](super_globals/session2.php) with $_SESSION 
 3. [cookies](super_globals/cookie.php) [cookies2](super_globals/cookie2.php) with $_COOKIE
 ### Object-oriented programming
-1. [classes](oop/Movie.php) with getters, setters, access modifiers
+1. [class](oop/Movie.php) with access modifiers, getters & setters
+2. [subclass](oop/AwardWinningMovie.php) with inheritance & overriding
+3. [objects](oop/awarded_movie.php) of class & subclass
 
 ---
 **Followed this book**

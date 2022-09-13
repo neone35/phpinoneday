@@ -55,7 +55,9 @@ echo '<a href="super_globals/cookie.php" target="_blank">cookie.php<br></a>';
 echo '<a href="super_globals/cookie2.php" target="_blank">cookie2.php<br></a>';
 
 echo "<h2>Object-oriented programming</h2>";
-echo '<a href="oop/Movie.php" target="_blank">Movie.php<br></a>';
+echo '<a href="oop/Movie.php" target="_blank">Movie.php class<br></a>';
+echo '<a href="oop/AwardWinningMovie.php" target="_blank">Movie.php subclass<br></a>';
+echo '<a href="oop/awarded_movie.php" target="_blank">objects of class & subclass<br></a>';
 ?>
 
 
