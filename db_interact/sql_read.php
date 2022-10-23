@@ -1,7 +1,7 @@
 <?php
 //Section A - Connecting to the database
 $pdo = new PDO("mysql:host=localhost;dbname=phpinoneday",
-    "root", "artur39307290019");
+    "root", "*");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //Section B - SELECT all rows from pets
 $sql = "SELECT petname, owner FROM pets";
