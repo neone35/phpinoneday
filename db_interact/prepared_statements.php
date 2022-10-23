@@ -1,7 +1,7 @@
 <?php
 // We can use the PDO library to connect to 12 different types as opposed to MySQLi
 $pdo = new PDO("mysql:host=localhost;dbname=phpinoneday",
-    "root", "artur39307290019");
+    "root", "*");
 // To get PDO to inform us of any issues, we need to use the setAttribute() method to configure the error mode
 // By default, after establishing a successful connection, PDO does not inform us of anything that goes wrong
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
