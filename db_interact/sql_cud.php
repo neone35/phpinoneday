@@ -2,7 +2,7 @@
 
 //SECTION A - CONNECT TO DATABASE
 $pdo = new PDO("mysql:host=localhost;dbname=phpinoneday",
-    "root", "artur39307290019");
+    "root", "*");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //SECTION B - CREATE TABLE
 $sql = "CREATE TABLE IF NOT EXISTS pets ( owner VARCHAR(255) NOT
